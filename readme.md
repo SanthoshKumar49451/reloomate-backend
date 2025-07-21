@@ -16,6 +16,7 @@ Bcrypt for Password Hashing
 
 CORS for frontend compatibility (React / React Native)
 
+
 Setup Instructions
 1. Clone this repository
 bash
@@ -30,10 +31,6 @@ Edit
 npm install
 3. Configure Environment Variables
 Create a .env file at the root level:
-
-ini
-Copy
-Edit
 PORT=5000
 MONGO_URI=your_mongo_connection_string
 JWT_SECRETKEY=your_secret_key
